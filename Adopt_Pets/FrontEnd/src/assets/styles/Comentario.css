@@ -1,0 +1,82 @@
+/* Estilos para la tabla */
+.table-container {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+  }
+  
+  /* Estilos para las celdas */
+  th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* Estilos para la fila de encabezado (cabecera) */
+  thead th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  /* Estilos para las filas pares (opcional) */
+  tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Estilos para las celdas al hacer hover (opcional) */
+  tbody td:hover {
+    background-color: #e6e6e6;
+  }
+  
+  /* Estilos para el contenedor de los botones */
+  .button-container {
+    display: flex;
+    gap: 8px;
+  }
+  
+  /* Estilos para los botones */
+  .button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+  }
+  
+  .add-button {
+    background-color: #0F9D58;
+  }
+  
+  .edit-button {
+    background-color: #4285F4;
+  }
+  
+  .delete-button {
+    background-color: #DB4437;
+  }
+  
+  /* Estilos para los botones al hacer hover (opcional) */
+  .button:hover {
+    opacity: 0.8;
+  }
+
+  /* Estilos para las cajas de comentario */
+.comentario-box {
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+  
+  
+
+  

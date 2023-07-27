@@ -1,0 +1,113 @@
+/* Estilos personalizados para el componente de Adopcion */
+.container-Adopcion {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 100%;
+}
+
+
+.card {
+  border: 1px solid #000;
+  background-color: transparent; /* Cambiamos el fondo a transparente */
+  display: flex;
+  flex-direction: column; /* Cambiamos la dirección del contenido a columna */
+  align-items: center; /* Centramos horizontalmente */
+  justify-content: center;
+  height: 450px; /* Ajustamos la altura a 450px (o el valor que desees) */
+  width: 100%; /* Agregamos un ancho del 100% para las tarjetas */
+  border-radius: 10px; /* Redondeamos las esquinas de la tarjeta */
+  user-select: none;
+  cursor: pointer;
+}
+
+.grid-container {
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr); /* 6 columnas de igual tamaño */
+  grid-gap: 16px; /* Espacio entre las tarjetas */
+}
+
+/* Estilos para el título de la tarjeta */
+.card-title {
+  font-size: 24px;
+  color: #000;
+  margin: 0;
+}
+
+/* Estilos para el contenido de la tarjeta */
+.card-body {
+  padding: 16px;
+}
+
+/* Estilos para la imagen de la mascota */
+.card img {
+  width: 100%; /* La imagen ocupará todo el ancho de la tarjeta */
+  height: 200px; /* Ajustamos la altura de la imagen (o el valor que desees) */
+  object-fit: cover; /* La imagen se ajustará al tamaño sin deformarse */
+  border-radius: 10px 10px 0 0; /* Redondeamos las esquinas superiores de la imagen */
+}
+
+/* Estilo para el panel */
+.panel-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+  }
+  
+  .panel {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    width: 600px;
+  }
+  
+  .panel-header {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .panel-footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .panel-footer button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .panel-content label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .panel-content input[type='text'],
+  .panel-content input[type='file'] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .panel-content button[type='submit'] {
+    width: 100%;
+    padding: 8px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+ 
