@@ -10,7 +10,7 @@ export const Adopcion = () => {
   useEffect(()=>{
     const obtenerMascota = async() =>{
         try {
-            const response = await axios.get('http://localhost:3000/api/listar-pet')
+            const response = await axios.get('https://adopt-pets2023-humbertolopez2020327.vercel.app/api/listar-pet')
             const data = response.data.pets
             setTarjeta(data)
         } catch (error) {

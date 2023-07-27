@@ -11,7 +11,7 @@ export const Comentario=()=>{
 useEffect(()=>{
       const ObtenerComentario=async()=>{
         try {
-          const response = await axios.get("http://localhost:3000/api/comentarios")
+          const response = await axios.get("https://adopt-pets2023-humbertolopez2020327.vercel.app/api/comentarios")
           const data = response.data.comment 
           setComentarios(data)
         } catch (error) {

@@ -1,7 +1,7 @@
 import axios from "axios";
 import Swal from "sweetalert2";
 
-const URL = "http://localhost:3000/api/"
+const URL = "https://adopt-pets2023-humbertolopez2020327.vercel.app/api/"
 export const login = async(email, password) => {
     try{
         const response = await axios.post(`${URL}login`, {email, password})
