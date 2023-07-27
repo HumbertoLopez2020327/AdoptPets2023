@@ -29,6 +29,7 @@ export const CreateUser = () => {
   };
 
   return (
+    <>
     <div className="body">
       <div className='containerUser'>
         <h2>Crear Cuenta</h2>
@@ -83,5 +84,6 @@ export const CreateUser = () => {
         </form>
       </div>
     </div>
+    </>
   );
 };

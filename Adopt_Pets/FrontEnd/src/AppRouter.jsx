@@ -41,7 +41,7 @@ export const AppRouter = () => {
         }
       />
 
-      <Route path="/register"
+      <Route path="/create-user"
         element={<CreateUser></CreateUser>}
       />
 

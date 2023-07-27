@@ -67,7 +67,7 @@ export const LoginPage = () => {
         </button>
       </form>
       <p>
-          ¿No tienes una cuenta?{' '}
+          ¿No tienes una  ?{' '}
           <Link to="/create-user" className="register-link">
             Regístrate aquí
           </Link>

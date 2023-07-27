@@ -1,7 +1,7 @@
 import axios from "axios";
 import Swal from "sweetalert2";
 
-const URL = "https://adopt-pets2023-humbertolopez2020327.vercel.app/api/"
+const URL = "https://adopt-pets2023-humbertolopez2020327.vercel.app/api/create-user"
 export const register = async(username, email, password, rol) => {
     try{
         const response = await axios.post(`${URL}create-user`, {username, email, password, rol})

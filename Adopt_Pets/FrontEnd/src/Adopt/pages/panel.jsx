@@ -28,7 +28,7 @@ const Panel = ({ setShowPanel }) => {
     }
   };*/
   const agregarMascota = async (e) => {
-    const URL = "http://localhost:3000/api/"
+    const URL = "https://adopt-pets2023-humbertolopez2020327.vercel.app/api"
     e.preventDefault();
     const formData = new FormData(); // Crea un objeto FormData para enviar los datos al backend
   
